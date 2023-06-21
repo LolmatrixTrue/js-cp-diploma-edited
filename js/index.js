@@ -1,4 +1,4 @@
-localStorage.setItem("selectSeanse", "");
+localStorage.clear();
 const dayWeekList = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];""
 
 document.addEventListener("DOMContentLoaded", () => {
