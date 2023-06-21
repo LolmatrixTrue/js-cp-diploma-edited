@@ -1,5 +1,5 @@
-localStorage.clear();
-const dayWeekList = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+localStorage.setItem("selectSeanse", "");
+const dayWeekList = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];""
 
 document.addEventListener("DOMContentLoaded", () => {
     // Update navigation feed with date
@@ -115,10 +115,12 @@ document.addEventListener("DOMContentLoaded", () => {
 					const {
 						hallId
 					} = event.target.dataset;
+					
 					const selectSeanse = {
 						...event.target.dataset,
 							hallConfig: data.halls.find((hall) => hall.hall_id == hallId).hall_config,
 					};
+					
 					localStorage.clear();
 					localStorage.setItem("selectSeanse", JSON.stringify(selectSeanse));
 				})
