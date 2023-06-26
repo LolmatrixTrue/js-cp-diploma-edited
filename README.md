@@ -45,7 +45,7 @@ Git
 Bootstrap - библиотека для создания адаптивных веб-страниц и интерфейсов.
 QRCreator.js - JavaScript библиотека для создания QR-кодов.
 GitHub Pages
-Проект доступен на GitHub Pages по следующей ссылке: https://github.com/LolmatrixTrue/js-cp-diploma-edited
+Проект доступен на GitHub Pages по следующей ссылке: https://lolmatrixtrue.github.io/js-cp-diploma-edited/
 
 Задание
 Исходный проект задания: https://github.com/VladaIsakova/js-cp-diploma-edited/
